@@ -1,0 +1,16 @@
+- Create your virtual environment:
+	virtualenv --python=python venv
+- Activate it
+	source venv/bin/activate
+- Lets install our application
+	pip install --editable .
+- editable allows us to have changes in our app and those changes will be considered even if it has been installed
+- . (dot) means that ot should install what we have in our current directory
+- Then by writing command which pv, it should show the path, so that it confirms our app is installed
+- The following commands lets show help from app
+	pv --help
+	pv clients help
+- if it does not intall, have a look at your file activate on venv/bin, open it and modify the following variable:
+	VIRTUAL_ENV=..."" .."
+- There you will see that if you have any folders with spaces then you need to add \ just before the space, so that the 
+terminal recognises them as spaces.

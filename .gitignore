@@ -1,0 +1,8 @@
+*.pdf
+*.zip
+.vscode
+Funciones
+Lectures
+__pycache__
+pv.egg-info
+venv
